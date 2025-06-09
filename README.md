@@ -6,7 +6,6 @@ This README would normally document whatever steps are necessary to get your app
 
 * Quick summary
  Simple device to share it's coordinates over Lora
-* Version
  
 
 ### How do I get set up? ###
@@ -18,7 +17,7 @@ PCB
 ![Alt text](images/pcb_v012.png)
 
 * Configuration
-Open sketch in Arduino 2.3.2
+Open project in PlatformIO
 
 * Dependencies
 EByte LoRa E32 library by Renzo
@@ -33,26 +32,12 @@ PCB
 ![Alt text](images/trans_pcb_v011.png)
 
 * Configuration
-  Open sketch in Arduino 2.3.2
+  Open project in PlatformIO
 
 * Dependencies
   EByte LoRa E32 library by Renzo
-  TinyGPSPlus
-
-
-
-
-### Contribution guidelines ###
-
-Just do it
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-Pavel Raev
-
-* Other community or team contact
-
+  
+  
 ### Notes
 
 Not all pins on the Leonardo and Micro support change interrupts, so only the following can be used for RX: 8, 9, 10, 11, 14 (MISO), 15 (SCK), 16 (MOSI).
