@@ -41,7 +41,3 @@ PCB
 ### Notes
 
 Not all pins on the Leonardo and Micro support change interrupts, so only the following can be used for RX: 8, 9, 10, 11, 14 (MISO), 15 (SCK), 16 (MOSI).
-
-
-### Tips ###
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
